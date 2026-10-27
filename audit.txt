@@ -1,0 +1,8 @@
+PROJECT AUDIT – Student Marks Processor
+
+1. Project files checked.
+2. Grade calculation checked.
+3. Pass/Fail logic checked.
+4. Total marks calculation checked.
+5. Average calculation needs verification.
+6. Output will be updated after running the program.
