@@ -1,16 +1,34 @@
-# Messy Python Code Improvement
+# Student Marks Processor
 
-## Project Description
+A small Python script that grades a list of students, prints pass/fail results, and reports class totals.
 
-This project improves a messy Python program by making the code cleaner, easier to read, and easier to maintain.
+## What it does
 
-## Technologies Used
+`messy.py` walks a hardcoded list of students and marks, then:
 
-* Python
-* Cursor AI
+- Computes class average and how many scores sit above it
+- Assigns a letter grade (`A`, `B`, `C`, or `F`)
+- Prints pass/fail for each student (passing mark is 40)
+- Prints total students and total marks
 
-## How to Run
+## Grade scale
 
-1. Install Python.
-2. Open the project folder in Cursor.
-3. Run `python messy.py` in the terminal.
+| Marks | Grade |
+| ----- | ----- |
+| 90 and above | A |
+| 75–89 | B |
+| 40–74 | C |
+| Below 40 | F |
+
+## How to run
+
+```bash
+python messy.py
+```
+
+Requires Python 3. No extra packages are needed.
+
+## Files
+
+- `messy.py` — main script
+- `original_output.txt` — sample console output from a previous run
